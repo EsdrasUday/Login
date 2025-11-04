@@ -1,0 +1,73 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Login - Esdras Uday</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <main class="container" role="main">
+            <div class="brand">
+                <div class="logo">o_0</div>
+                <div>
+                    <h1>Bem-vindo de volta</h1>
+                    <p class="lead">Entre na sua conta para continuar</p>
+                </div>
+            </div>
+
+            <form id="loginForm" action="#" method="post" novalidate>
+                <div>
+                    <label for="email">E‑mail</label>
+                    <div class="input">
+                        <input id="email" name="email" type="email"
+                            placeholder="seu@exemplo.com" required
+                            autocomplete="email">
+                    </div>
+                </div>
+
+                <div style="position:relative">
+                    <label for="password">Senha</label>
+                    <div class="input">
+                        <input id="password" name="password" type="password"
+                            placeholder="••••••••" required minlength="6"
+                            autocomplete="current-password">
+                        <button type="button" class="show-pass"
+                            aria-pressed="false"
+                            id="togglePass">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <label class="checkbox"><input type="checkbox"
+                            name="remember"> Lembrar-me</label>
+                    <a href="#"
+                        style="color:var(--muted);text-decoration:none">Esqueci
+                        a senha</a>
+                </div>
+
+                <div>
+                    <button type="submit">Entrar</button>
+                </div>
+
+                <div class="or">ou</div>
+
+                <div>
+                    <button type="button"
+                        onclick="alert('Entrar com Google - exemplo')"
+                        class="google-btn">Entrar com Google</button>
+                </div>
+
+                <div class="helper">Ainda não tem conta? <a href="#">Criar conta
+                        grátis</a></div>
+            </form>
+
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
