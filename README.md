@@ -1,8 +1,8 @@
-# 🔐 Tela de Login Moderna
+# 🔐 Tela de Login
 
 Uma interface de login moderna, responsiva e acessível, construída com HTML, CSS e JavaScript puros. O projeto implementa boas práticas de UX/UI e acessibilidade.
 
-![Preview da tela de login](https://via.placeholder.com/600x400/051126/e6f6f9?text=Login+Preview)
+![Preview da tela de login](https://esdrasuday.github.io/Login/)
 
 ## ✨ Características
 
