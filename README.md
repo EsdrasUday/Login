@@ -2,8 +2,6 @@
 
 Uma interface de login moderna, responsiva e acessível, construída com HTML, CSS e JavaScript puros. O projeto implementa boas práticas de UX/UI e acessibilidade.
 
-![Preview da tela de login](https://esdrasuday.github.io/Login/)
-
 ## ✨ Características
 
 - 🎨 Design moderno com gradientes e efeitos de vidro (glassmorphism)
